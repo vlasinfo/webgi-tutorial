@@ -1,16 +1,20 @@
 {
   "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
     "strict": true,
-    "module": "commonjs",
-    "jsx": "preserve",
     "esModuleInterop": true,
-    "sourceMap": true,
+    "skipLibCheck": true,
     "allowJs": true,
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx", 
+    "sourceMap": true,
+    "lib": ["ES2020", "DOM"],
     "rootDir": "src",
-    "moduleResolution": "node"
-  }
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
