@@ -1,3 +1,8 @@
+:root {
+  --red: #c25e6b;
+  --green: #94b4a4;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   overflow-x: hidden;
@@ -36,9 +41,10 @@ body {
 
 .nav--bar{
   position: absolute;
+  left: 30px; 
+  right: 30px;
   display: flex;
   align-content: space-between;
-  width: 100%;
   justify-content: space-between;
   margin-top: 30px;
 }
@@ -55,20 +61,19 @@ body {
 }
 
 .section--one--container{
-  width: 360px;
+  width: 490px;
   margin-left: 15%;
 }
 
 .first h1{
-  font-size: 10rem;
-  line-height: 8rem;
-  letter-spacing: -0.3rem;
-  width: 50%;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  letter-spacing: -0.03rem;
   margin: 0 0 30px -10px;
 }
 
 .button--hero{
-  background: #F2CE6E;
+  background: var(--green);
   color: black;
   border: none;
   font-weight: 600;
@@ -82,7 +87,7 @@ body {
 }
 
 .button--customize{
-  background: #F2CE6E;
+  background: var(--green);
   color: black;
   border: none;
   font-weight: 600;
@@ -100,14 +105,20 @@ body {
 }
 
 .button--navbar{
-  background: black;
+  background: var(--red);
   color: white;
   border: none;
   border-radius: 50px;
   padding: 10px 30px;
-  margin-right: 40px;
-  font-size: 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
 }
+
+.button--navbar:hover {
+  background-color: var(--green);
+}
+
 
 .second{
   justify-content: flex-end;
@@ -135,7 +146,7 @@ h2{
 .custom--bg{
   width: 100%;
   height: 800px;
-  background: #F2CE6E;
+  background: var(--green);
   -webkit-transform: skew(20deg);
   -moz-transform: skew(20deg);
   -o-transform: skew(20deg);

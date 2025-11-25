@@ -2,41 +2,15 @@
 <html lang="en">
 
 <head>
-	<title>Threejs Free Course Final Project - BY ANDERSON MANCINI</title>
-	<meta name="description" content="Threejs demo landing page for product visualization using WEBGi">
-
-	<meta property="og:url" content="http://drill-webgi-tutorial.vercel.app">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Threejs demo landing page for product visualization using WEBGi">
-	<meta property="og:description" content="Threejs demo landing page for product visualization using WEBGi">
-	<meta property="og:image" content="http://drill-webgi-tutorial.vercel.app/assets/images/preview.jpg">
-
-	<meta name="twitter:card" content="summary_large_image">
-	<meta property="twitter:domain" content="drill-webgi-tutorial.vercel.app">
-	<meta property="twitter:url" content="http://drill-webgi-tutorial.vercel.app">
-	<meta name="twitter:title" content="Threejs demo landing page for product visualization using WEBGi">
-	<meta name="twitter:description"
-		content="Threejs demo landing page for product visualization using WEBGi">
-	<meta name="twitter:image" content="http://drill-webgi-tutorial.vercel.app/assets/images/preview.jpg">
-
-	<meta name="keywords" content="HTML, CSS, JavaScript">
-	<meta name="author" content="www.neotix.com.br">
-
+	<title>Come Back Mobility with Threejs, WEBGi</title>
 	<meta charset="UTF-8" />
-
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-	<link rel="manifest" href="assets/favicons/site.webmanifest">
-	<meta name="msapplication-TileColor" content="#F2CE6E">
-	<meta name="theme-color" content="#F2CE6E">
 
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-
+	<link rel="stylesheet" href="src/styles.css"> 
 </head>
 
 <body>
@@ -46,31 +20,56 @@
 		<div class="progress"></div>
 	</div>
 	<nav class="nav--bar">
-		<img class="logo" src="assets/images/logo.svg" >
-		<button class="button--navbar">BUY NOW</button>
+		<div class="site-logo">
+			<svg width="341" height="112" viewBox="0 0 341 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M23.3903 45.3746C33.0752 45.3746 38.61 40.0487 41.7736 34.588L33.7346 30.7091C31.888 34.3265 27.9368 37.089 23.3903 37.089C15.417 37.089 9.61919 30.9722 9.61919 22.6865C9.61919 14.4008 15.417 8.28566 23.3903 8.28566C27.9368 8.28566 31.888 11.1122 33.7346 14.6639L41.7736 10.7176C38.6757 5.26014 33.0752 0 23.3903 0C10.2128 0 0 9.20483 0 22.6865C0 36.1682 10.2128 45.3746 23.3903 45.3746Z" fill="black"/>
+			<path d="M61.2703 19.4655C66.4762 19.4655 69.4408 23.7407 69.4408 28.6719C69.4408 33.6706 66.4762 37.9425 61.2703 37.9425C56.0644 37.9425 53.1655 33.6706 53.1655 28.6719C53.1655 23.7407 56.0644 19.4655 61.2703 19.4655ZM61.2703 45.3748C71.8119 45.3748 78.1376 37.7452 78.1376 28.6719C78.1376 19.6611 71.8119 12.0332 61.2703 12.0332C50.7944 12.0332 44.4688 19.6611 44.4688 28.6719C44.4688 37.7452 50.7944 45.3748 61.2703 45.3748Z" fill="black"/>
+			<path d="M122.211 12.0342C117.336 12.0342 113.12 14.9282 111.275 17.8222C110.089 14.203 107.123 12.0342 102.445 12.0342C97.5715 12.0342 93.3538 15.0597 92.0351 16.9655V12.8218H83.6689V44.5865H92.0351V23.2138C93.2864 21.438 95.7249 19.4665 98.6238 19.4665C102.05 19.4665 103.367 21.5695 103.367 24.5293V44.5865H111.801V23.1481C112.988 21.438 115.425 19.4665 118.391 19.4665C121.816 19.4665 123.135 21.5695 123.135 24.5293V44.5865H131.567V21.6353C131.567 15.1239 128.075 12.0342 122.211 12.0342Z" fill="black"/>
+			<path d="M153.567 18.6756C159.102 18.6756 161.21 22.6861 161.409 25.7116H145.727C146.123 22.5545 148.363 18.6756 153.567 18.6756ZM167.206 40.9691L163.517 35.5758C161.474 37.5506 157.719 38.7312 155.017 38.7312C149.614 38.7312 146.386 35.3785 145.86 31.368H169.512V29.5264C169.512 19.1344 163.056 12.0342 153.567 12.0342C143.88 12.0342 137.094 19.4649 137.094 28.6713C137.094 38.8628 144.41 45.3742 154.093 45.3742C159.036 45.3742 164.043 43.8614 167.206 40.9691Z" fill="black"/>
+			<path d="M184.465 36.4962V26.3032H196.523C200.211 26.3032 202.187 28.671 202.187 31.4334C202.187 34.5888 200.079 36.4962 196.523 36.4962H184.465ZM184.465 8.74523H196.194C199.356 8.74523 201.332 10.7842 201.332 13.5466C201.332 16.3091 199.356 18.2806 196.194 18.2806H184.465V8.74523ZM211.742 32.7489C211.742 27.224 207.987 22.6873 203.309 21.9639C207.459 21.1088 210.886 17.4256 210.886 11.9023C210.886 6.04857 206.602 0.722656 198.236 0.722656H175.111V44.5862H198.96C207.327 44.5862 211.742 39.3244 211.742 32.7489Z" fill="black"/>
+			<path d="M237.038 36.9574C235.653 38.799 233.019 39.7198 230.317 39.7198C227.022 39.7198 224.322 38.0098 224.322 35.0517C224.322 31.9587 227.022 30.2503 230.317 30.2503C233.019 30.2503 235.653 31.1694 237.038 33.0127V36.9574ZM231.503 12.0347C226.496 12.0347 221.489 13.6115 217.602 17.0317L220.764 22.6207C223.466 20.123 226.628 18.8733 230.054 18.8733C234.27 18.8733 237.038 20.978 237.038 24.1992V28.4744C234.93 25.9751 231.174 24.5939 226.957 24.5939C221.884 24.5939 215.889 27.4204 215.889 34.8527C215.889 41.9561 221.884 45.3746 226.957 45.3746C231.108 45.3746 234.864 43.8618 237.038 41.2984V44.587H245.406V24.0677C245.406 14.9286 238.751 12.0347 231.503 12.0347Z" fill="black"/>
+			<path d="M268.265 19.4655C271.166 19.4655 273.471 20.6477 274.985 22.884L280.454 17.7537C278.346 14.8598 274.393 12.0332 267.87 12.0332C258.052 12.0332 251.003 18.9393 251.003 28.6719C251.003 38.4704 258.052 45.3748 267.87 45.3748C274.393 45.3748 278.346 42.5466 280.454 39.5868L274.985 34.524C273.471 36.6287 271.166 37.9425 268.265 37.9425C263.192 37.9425 259.634 34.1952 259.634 28.6719C259.634 23.1471 263.192 19.4655 268.265 19.4655Z" fill="black"/>
+			<path d="M315.964 12.8225H305.686L293.628 26.9619V0.723633H285.26V44.5856H293.628V36.4314L297.449 32.3536L305.883 44.5856H316.359L303.381 27.225L315.964 12.8225Z" fill="black"/>
+			<path d="M25.8939 83.1312L15.2207 56.6299H2.10742V100.493H11.4651V69.7811L23.8517 100.493H27.9361L40.3211 69.7811V100.493H49.7446V56.6299H36.5671L25.8939 83.1312Z" fill="black"/>
+			<path d="M330.657 4.1756L330.626 4.146L320.714 14.0595L323.283 16.6296L330.657 9.25486L328.118 6.71605L330.657 4.1756Z" fill="black"/>
+			<path d="M340.6 14.0589L330.687 4.14697L330.657 4.17492L333.196 6.71537L330.657 9.25418L338.032 16.6289L340.6 14.0589Z" fill="black"/>
+			<path d="M330.657 4.17578L328.118 6.71623L330.657 9.25504L333.196 6.71623L330.657 4.17578Z" fill="black"/>
+			<path d="M112.135 92.5633C109.377 92.5633 106.215 91.021 104.803 88.9376V77.4555C106.215 75.3063 109.377 73.6933 112.135 73.6933C117.112 73.6933 120.407 77.5229 120.407 83.1628C120.407 88.8045 117.112 92.5633 112.135 92.5633ZM114.825 66.1064C110.992 66.1064 107.36 67.7853 104.803 71.0772V54.5552H96.2607V99.3478H104.803V95.1844C107.36 98.4089 110.923 100.154 114.825 100.154C123.03 100.154 129.217 93.9742 129.217 83.1628C129.217 72.5521 123.097 66.1064 114.825 66.1064Z" fill="black"/>
+			<path d="M133.998 99.3484H142.538V66.9111H133.998V99.3484Z" fill="black"/>
+			<path d="M149.333 99.3483H157.875V54.5557H149.333V99.3483Z" fill="black"/>
+			<path d="M164.667 99.3484H173.208V66.9111H164.667V99.3484Z" fill="black"/>
+			<path d="M168.905 62.6032C171.274 62.6032 173.193 60.6876 173.193 58.3215C173.193 55.9553 171.274 54.0972 168.905 54.0972C166.593 54.0972 164.618 55.9553 164.618 58.3215C164.618 60.6876 166.593 62.6032 168.905 62.6032Z" fill="black"/>
+			<path d="M138.494 54.0972C136.182 54.0972 134.209 55.9553 134.209 58.3214C134.209 60.6876 136.182 62.6032 138.494 62.6032C140.865 62.6032 142.783 60.6876 142.783 58.3214C142.783 55.9553 140.865 54.0972 138.494 54.0972Z" fill="black"/>
+			<path d="M194.942 92.5635C193.059 92.5635 191.982 91.0212 191.982 89.0053V74.366H197.709L194.841 66.9107H191.982V58.0479H183.372V66.9107H177.992V74.366H183.372V91.2892C183.372 97.064 186.602 100.154 192.587 100.154C196.152 100.154 198.439 99.2131 199.717 98.072L197.901 91.6245C197.43 92.0965 196.219 92.5635 194.942 92.5635Z" fill="black"/>
+			<path d="M215.689 88.9631L207.216 66.3999H198.534V66.686L205.143 83.8657L205.074 83.892L211.25 99.3058L210.039 102.059C209.232 103.806 207.752 104.412 205.532 104.412C204.727 104.412 203.582 104.208 202.844 103.872L201.565 111.528C202.64 111.798 204.794 112 205.8 112C211.384 111.865 215.689 110.252 218.111 104.14L233.377 66.3999H224.162L215.689 88.9631Z" fill="black"/>
+			<path d="M79.6579 78.3651C80.4127 79.822 80.814 81.5386 80.814 83.3457C80.814 88.374 77.8311 92.6739 72.5956 92.6739C70.4219 92.6739 68.6559 91.9257 67.324 90.7007L61.5771 96.4459C64.3823 98.7496 68.105 100.154 72.5956 100.154C83.1998 100.154 89.5616 92.4766 89.5616 83.3457C89.5616 79.1675 88.1952 75.2968 85.6991 72.3223L79.6579 78.3651Z" fill="black"/>
+			<path d="M64.4436 83.3463C64.4436 78.3805 67.359 74.0807 72.5961 74.0807C74.5907 74.0807 76.258 74.7088 77.5586 75.7579L83.294 70.0209C80.5233 67.8964 76.919 66.604 72.5961 66.604C62.0578 66.604 55.6943 74.278 55.6943 83.3463C55.6943 87.3864 56.944 91.137 59.246 94.0688L65.3743 87.9405C64.7643 86.5708 64.4436 85.0005 64.4436 83.3463Z" fill="black"/>
+			</svg>
+		</div>
+		<button class="button--navbar">Request a demo</button>
 	</nav>
 
 	<div class="container">
 		<section class="section first">
 			<div class="section--one--container">
-				<h1>Perfect Drill</h1>
-				<p>Variable speed for ultimate fingertip control for all drilling applications. Reverse brush system for full torque and power in forward and reverse, lock-on button for continuous use.</p>
+				<h1>Biofeedback weight-bearing devices & individual weight-bearing protocols</h1>
+				<p>Help patients adhere weight-bearing protocols to enhance bone healing & prevent fixation failure. These protocols reduce complications that lead to reoperations, generating additional revenue for practices and savings for payers.</p>
 				<button class="button--hero">KNOW MORE</button>
 			</div>
 		</section>
 
 		<section class="section second">
 			<div class="section--two--container">
-				<h2>Comfortable to use</h2>
-				<p>Ergonomic reversible hammer drill design with optimal grip positions, light weight and insulated shock proof plastic body, easy to change bits</p>
+				<h2>Clinical Research</h2>
+				<p>Help patients adhere weight-bearing protocols to enhance bone healing & prevent fixation failure. These protocols reduce complications that lead to reoperations, generating additional revenue for practices and savings for payers.</p>
 			</div>
 			<div class="custom--bg"></div>
 		</section>
 
 		<section class="section third">
 			<div class="section--third--container">
-				<h2>Wood and metal</h2>
-				<p>Supports wood and metal drilling. Metal drill bits are not part of the included components with the product. Metal drill bits can be procured by the customer and can be used for drilling into metal surfaces</p>
+				<h2>How it Works</h2>
+				<p>Help patients adhere weight-bearing protocols to enhance bone healing & prevent fixation failure. These protocols reduce complications that lead to reoperations, generating additional revenue for practices and savings for payers.</p>
 				<button class="button--customize">CUSTOMIZE</button>
 			</div>
 		</section>

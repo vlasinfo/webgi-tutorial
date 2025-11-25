@@ -16,7 +16,7 @@ import {
     AssetImporter
 } from "webgi";
 
-import "./styles.css";
+// import "./styles.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "@studio-freight/lenis";
@@ -84,7 +84,7 @@ async function setupViewer() {
   viewer.scene.add(ambientLight);
 
   const directionalLight = new DirectionalLight(0xffffff, 1);
-  directionalLight.position.set(10, 10, 10);
+  directionalLight.position.set(1000, 10, 10);
   viewer.scene.add(directionalLight);
 
   // Optional: Use HDRI environment if you have one
@@ -141,7 +141,7 @@ async function setupViewer() {
   viewer.getPlugin(TonemapPlugin)!.config!.clipBackground = true;
   viewer.scene.activeCamera.setCameraOptions({ controlsEnabled: false });
 
-  if (isMobile) {
+  if (!isMobile) {
     position.set(-3.5, -1.1, 5.5);
     target.set(-0.8, 1.55, -0.7);
     camera.setCameraOptions({ fov: 40 });
